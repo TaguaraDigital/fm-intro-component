@@ -14,22 +14,25 @@
    text-align: center;
    
    @include table {
+      padding: 7.5rem 2rem;
       background-image: url("../../assets/images/bg-intro-desktop.png");
    }
 
    &__content {
+      max-width: 1124px;
       display: grid;
       grid-template-columns: 1fr;
       justify-content: center;
       align-items: center;
       
       @include table {
-         padding: 0 8rem;
          grid-template-columns: 1fr 1fr;
          text-align: left;
          gap: 2rem;
       }
    }
+
+
 }
 
 
@@ -41,7 +44,7 @@
    line-height: 1.2;
 
    @include table {
-      font-size: 3rem
+      font-size: 3.125rem
    }
 }
 
@@ -57,6 +60,7 @@
 
    @include table {
       margin-top: 0;
+      text-align: center;
    }
 }
 
