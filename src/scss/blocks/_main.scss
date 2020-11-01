@@ -5,7 +5,7 @@
    padding: 4.25rem 1.5rem;
    
    background-color: var(--red);
-   background-image: url("../../assets/images/bg-intro-mobile.png");
+   background-image: url("../assets/images/bg-intro-mobile.png");
    
    display: flex;
    flex-direction: column;
@@ -15,7 +15,7 @@
    
    @include table {
       padding: 7.5rem 2rem;
-      background-image: url("../../assets/images/bg-intro-desktop.png");
+      background-image: url("../assets/images/bg-intro-desktop.png");
    }
 
    &__content {
