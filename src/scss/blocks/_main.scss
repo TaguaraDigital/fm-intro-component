@@ -14,7 +14,7 @@
    text-align: center;
    
    @include table {
-      padding: 7.5rem 2rem;
+      padding: 7rem 2rem;
       background-image: url("../assets/images/bg-intro-desktop.png");
    }
 
@@ -31,8 +31,6 @@
          gap: 2rem;
       }
    }
-
-
 }
 
 
